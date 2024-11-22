@@ -54,14 +54,9 @@ namespace S6_HK1B_Demo
                     Console.WriteLine("Congratulations! You have guessed the correct number.");
                     break;
                 }
-                else if (guess < correctNumber)
-                {
-                    Console.WriteLine("The correct number is greater than your guess.");
-                }
-                else
-                {
-                    Console.WriteLine("The correct number is less than your guess.");
-                }
+
+                string feedback = GetFeedback(guess, correctNumber);
+                Console.WriteLine(feedback);
 
                 chances--;
                 Console.WriteLine($"You have {chances} chances left.");
@@ -73,6 +68,32 @@ namespace S6_HK1B_Demo
             }
 
             Console.ReadLine();
+        }
+
+        // Function to generate feedback based on the guess and correct number
+        private static string GetFeedback(int guess, int correctNumber)
+        {
+            string feedback = "";
+            string guessString = guess.ToString();
+            string correctNumberString = correctNumber.ToString();
+
+            for (int i = 0; i < guessString.Length; i++)
+            {
+                if (guessString[i] == correctNumberString[i])
+                {
+                    feedback += "+";
+                }
+                else if (correctNumberString.Contains(guessString[i]))
+                {
+                    feedback += "?";
+                }
+                else
+                {
+                    feedback += "-";
+                }
+            }
+
+            return feedback;
         }
     }
 }

@@ -5,6 +5,10 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S6_HK1B_Demo", "S6_HK1B_Demo\S6_HK1B_Demo.csproj", "{0119EE15-098C-4144-ACFC-248F40B15A91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLySinhVien", "QuanLySinhVien\QuanLySinhVien.csproj", "{C7375D63-2170-40E3-9EA5-0A3AE79A6395}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyVienKhoaHoc", "QuanLyVienKhoaHoc\QuanLyVienKhoaHoc.csproj", "{8FE91FBD-3AE9-4B95-B435-6B554ED929E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{0119EE15-098C-4144-ACFC-248F40B15A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0119EE15-098C-4144-ACFC-248F40B15A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0119EE15-098C-4144-ACFC-248F40B15A91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7375D63-2170-40E3-9EA5-0A3AE79A6395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7375D63-2170-40E3-9EA5-0A3AE79A6395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7375D63-2170-40E3-9EA5-0A3AE79A6395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7375D63-2170-40E3-9EA5-0A3AE79A6395}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FE91FBD-3AE9-4B95-B435-6B554ED929E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FE91FBD-3AE9-4B95-B435-6B554ED929E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FE91FBD-3AE9-4B95-B435-6B554ED929E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FE91FBD-3AE9-4B95-B435-6B554ED929E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
